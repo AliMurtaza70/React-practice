@@ -52,3 +52,27 @@
   border: none;
   color: white;
 }
+.second-section {
+  padding: 92px 0 120px 0;
+  width: 100%;
+}
+.sec-heading1 {
+  font-size: 55px;
+  font-family: Playfair Display;
+  font-weight: 500;
+  line-height: 60.5px;
+  margin: 0;
+}
+.sec-cards {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.second-sec-content {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
