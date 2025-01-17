@@ -1,34 +1,37 @@
-nav{
-    padding: 10.2px 0;
+nav {
+  padding: 10.2px 0;
 }
 .container {
   max-width: 1293px;
   margin: 0 auto;
 }
-.nav-content{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-ul{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    list-style-type: none;
-    font-family: DM Sans;
+ul {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style-type: none;
+  font-family: DM Sans;
 }
-.social-link{
-    font-size: 16px;
-    padding: 4px 16px;
-    line-height: 24px;
-    font-weight: 500;
+.social-link {
+  font-size: 16px;
+  padding: 4px 16px;
+  line-height: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 20px;
+  color: #2C2F24;
 }
-button{
-    background-color: transparent;
-    border-radius: 118px;
-    border: 1.5px solid #182226;
-    font-size: 16px;
-    font-family: DM Sans;
-    font-weight: 600;
-    padding: 12px 24px;
+button {
+  background-color: transparent;
+  border-radius: 118px;
+  border: 1.5px solid #182226;
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 600;
+  padding: 12px 24px;
 }
