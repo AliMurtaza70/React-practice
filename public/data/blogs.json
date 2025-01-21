@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Understanding React Hooks",
+    "description": "React Hooks provide developers with a way to use state and lifecycle methods in functional components. This post breaks down the fundamentals of hooks like useState and useEffect, and explores how they simplify component logic. You'll learn how to effectively utilize these hooks to make your code cleaner, more readable, and easier to maintain.\n\nAdditionally, we dive into advanced hooks like useReducer and useContext, showing how they can be used to manage complex state and global data. By the end of this article, you'll have the confidence to implement hooks in your projects and take your React skills to the next level.",
+    "publishDate": "2025-01-10",
+    "author": "Jane Doe",
+    "image": "https://cms-assets.themuse.com/media/lead/01212022-1047259374-coding-classes_scanrail.jpg",
+    "review": ["dkasjkdjaskdjksajdkjsakdjksajkd", "sljdkasldklaskdlkasld"]
+  },
+  {
+    "id": 2,
+    "title": "10 Tips for Writing Clean JavaScript Code",
+    "description": "Writing clean and maintainable JavaScript is a crucial skill for developers. In this post, we share ten practical tips, from using meaningful variable names to modularizing your code, to help you improve your JavaScript practices. Clean code is not just about aesthetics; it's about creating software that is easy to understand and modify.\n\nWe'll also cover topics such as avoiding nested callbacks, leveraging ES6+ features like destructuring, and setting up linting tools to enforce code quality. Whether you're a beginner or an experienced developer, these tips will help you elevate your coding standards.",
+    "publishDate": "2025-01-15",
+    "author": "John Smith",
+    "image": "https://fsa2-assets.imgix.net/assets/laptop-coding-terminal.jpg?auto=compress%2Cformat&crop=focalpoint&domain=fsa2-assets.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&ixlib=php-3.3.1&w=1280",
+    "review": ["dkasjkdjaskdjksajdkjsakdjksajkd", "sljdkasldklaskdlkasld"]
+  },
+  {
+    "id": 3,
+    "title": "Introduction to GraphQL",
+    "description": "GraphQL is a query language for APIs that offers a more flexible alternative to REST. This blog post introduces the key concepts of GraphQL, including schemas, resolvers, and how to perform queries and mutations. You'll discover why GraphQL is gaining popularity among developers and how it simplifies data fetching.\n\nWe also delve into setting up a simple GraphQL server and exploring tools like Apollo Client to integrate GraphQL into your frontend. By the end of this article, you'll have a solid foundation to start using GraphQL in your projects.",
+    "publishDate": "2025-01-18",
+    "author": "Emily Davis",
+    "image": "https://spaceliftio.wpcomstaging.com/wp-content/uploads/2024/09/454.ai-coding-tools-670x408.png",
+    "review": ["dkasjkdjaskdjksajdkjsakdjksajkd", "sljdkasldklaskdlkasld"]
+  },
+  {
+    "id": 4,
+    "title": "Mastering CSS Grid Layout",
+    "description": "CSS Grid Layout is a powerful tool for creating responsive and modern web designs. This tutorial covers the essential properties of CSS Grid and demonstrates how to build complex layouts with ease. We'll take you through real-world examples to illustrate how CSS Grid simplifies layout design.\n\nIn this post, you'll learn about grid-template-rows, grid-template-columns, and other important concepts that make Grid Layout incredibly versatile. Whether you're building a simple landing page or a full-fledged dashboard, this guide will give you the skills to excel.",
+    "publishDate": "2025-01-20",
+    "author": "Michael Brown",
+    "image": "https://img.freepik.com/free-vector/programmer-concept-illustration_114360-2417.jpg?semt=ais_hybrid",
+    "review": ["dkasjkdjaskdjksajdkjsakdjksajkd", "sljdkasldklaskdlkasld"]
+  },
+  {
+    "id": 5,
+    "title": "Demystifying TypeScript for Beginners",
+    "description": "TypeScript adds static typing to JavaScript, making it easier to catch errors during development. In this beginner-friendly guide, we explore the basics of TypeScript, including interfaces, types, and how to set up a project. You'll see how TypeScript enhances code quality and readability.\n\nWe also discuss the transition from JavaScript to TypeScript and provide tips to integrate TypeScript into existing projects. With plenty of code examples, this article will help you get started with TypeScript confidently.",
+    "publishDate": "2025-01-22",
+    "author": "Sophia Williams",
+    "image": "https://images.unsplash.com/photo-1607706189992-eae578626c86?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29kaW5nfGVufDB8fDB8fHww",
+    "review": ["dkasjkdjaskdjksajdkjsakdjksajkd", "sljdkasldklaskdlkasld"]
+  }
+]
