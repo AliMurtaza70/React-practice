@@ -1,10 +1,7 @@
 nav {
   padding: 10.2px 0;
 }
-.container {
-  max-width: 1293px;
-  margin: 0 auto;
-}
+
 .nav-content {
   display: flex;
   align-items: center;

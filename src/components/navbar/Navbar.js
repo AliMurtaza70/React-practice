@@ -4,10 +4,9 @@ import { Link, useLocation } from "react-router-dom";
 
 const socialLinks = [
   { id: 1, name: "Home", path: "/" },
-  { id: 2, name: "About", path: "/about" },
-  { id: 3, name: "Menu", path: "/menu" },
-  { id: 4, name: "Pages", path: "/pages" },
-  { id: 5, name: "Contact", path: "/contact" },
+  { id: 2, name: "Create Blog", path: "/create-blog" },
+  { id: 3, name: "Contact", path: "/contact" },
+  { id: 4, name: "About Us", path: "/about-us" },  
 ];
 
 export default function Navbar() {
@@ -17,7 +16,7 @@ export default function Navbar() {
     <nav>
       <div className="container">
         <div className="nav-content">
-          <img src="/images/Logo.png" alt="Logo" />
+          <h1>Blog Bazar</h1>
           <ul className="social-links">
             {socialLinks.map((link) => (
               <Link
@@ -33,7 +32,6 @@ export default function Navbar() {
               </Link>
             ))}
           </ul>
-          <button>Book A Table</button>
         </div>
       </div>
     </nav>

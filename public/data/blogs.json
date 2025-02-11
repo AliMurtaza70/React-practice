@@ -1,47 +1,16 @@
 [
   {
     "id": 1,
-    "title": "Understanding React Hooks",
-    "description": "React Hooks provide developers with a way to use state and lifecycle methods in functional components. This post breaks down the fundamentals of hooks like useState and useEffect, and explores how they simplify component logic. You'll learn how to effectively utilize these hooks to make your code cleaner, more readable, and easier to maintain.\n\nAdditionally, we dive into advanced hooks like useReducer and useContext, showing how they can be used to manage complex state and global data. By the end of this article, you'll have the confidence to implement hooks in your projects and take your React skills to the next level.",
-    "publishDate": "2025-01-10",
-    "author": "Jane Doe",
-    "image": "https://cms-assets.themuse.com/media/lead/01212022-1047259374-coding-classes_scanrail.jpg",
-    "review": ["dkasjkdjaskdjksajdkjsakdjksajkd", "sljdkasldklaskdlkasld"]
+    "authorName": "Emily Johnson",
+    "description": "Writing clean code is an essential skill for any developer, whether you're building small applications or working on large-scale projects. Clean code is not only easier to read but also simplifies debugging and maintenance, saving you and your team countless hours in the long run. To achieve this, developers should focus on meaningful naming conventions, avoiding redundancy, and structuring code in a modular and reusable way. Following practices like consistent indentation, limiting line length, and writing meaningful comments can make a world of difference in how others (or even future you) interpret your work.\n\nBeyond syntax and formatting, the mindset behind clean code matters just as much. Ask yourself: is the purpose of this function clear? Is the logic straightforward and understandable at a glance? When in doubt, refactor and simplify. Remember, clean code is not about impressing others with complexity but about crafting solutions that are intuitive and maintainable. As coding becomes increasingly collaborative, adhering to clean code principles fosters better communication and teamwork among developers. The payoff is well worth the initial effort!",
+    "publishDate": "2025-02-08",
+    "image": "/images/blogpost1.jpg"
   },
   {
     "id": 2,
-    "title": "10 Tips for Writing Clean JavaScript Code",
-    "description": "Writing clean and maintainable JavaScript is a crucial skill for developers. In this post, we share ten practical tips, from using meaningful variable names to modularizing your code, to help you improve your JavaScript practices. Clean code is not just about aesthetics; it's about creating software that is easy to understand and modify.\n\nWe'll also cover topics such as avoiding nested callbacks, leveraging ES6+ features like destructuring, and setting up linting tools to enforce code quality. Whether you're a beginner or an experienced developer, these tips will help you elevate your coding standards.",
-    "publishDate": "2025-01-15",
-    "author": "John Smith",
-    "image": "https://fsa2-assets.imgix.net/assets/laptop-coding-terminal.jpg?auto=compress%2Cformat&crop=focalpoint&domain=fsa2-assets.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&ixlib=php-3.3.1&w=1280",
-    "review": ["dkasjkdjaskdjksajdkjsakdjksajkd", "sljdkasldklaskdlkasld"]
-  },
-  {
-    "id": 3,
-    "title": "Introduction to GraphQL",
-    "description": "GraphQL is a query language for APIs that offers a more flexible alternative to REST. This blog post introduces the key concepts of GraphQL, including schemas, resolvers, and how to perform queries and mutations. You'll discover why GraphQL is gaining popularity among developers and how it simplifies data fetching.\n\nWe also delve into setting up a simple GraphQL server and exploring tools like Apollo Client to integrate GraphQL into your frontend. By the end of this article, you'll have a solid foundation to start using GraphQL in your projects.",
-    "publishDate": "2025-01-18",
-    "author": "Emily Davis",
-    "image": "https://spaceliftio.wpcomstaging.com/wp-content/uploads/2024/09/454.ai-coding-tools-670x408.png",
-    "review": ["dkasjkdjaskdjksajdkjsakdjksajkd", "sljdkasldklaskdlkasld"]
-  },
-  {
-    "id": 4,
-    "title": "Mastering CSS Grid Layout",
-    "description": "CSS Grid Layout is a powerful tool for creating responsive and modern web designs. This tutorial covers the essential properties of CSS Grid and demonstrates how to build complex layouts with ease. We'll take you through real-world examples to illustrate how CSS Grid simplifies layout design.\n\nIn this post, you'll learn about grid-template-rows, grid-template-columns, and other important concepts that make Grid Layout incredibly versatile. Whether you're building a simple landing page or a full-fledged dashboard, this guide will give you the skills to excel.",
-    "publishDate": "2025-01-20",
-    "author": "Michael Brown",
-    "image": "https://img.freepik.com/free-vector/programmer-concept-illustration_114360-2417.jpg?semt=ais_hybrid",
-    "review": ["dkasjkdjaskdjksajdkjsakdjksajkd", "sljdkasldklaskdlkasld"]
-  },
-  {
-    "id": 5,
-    "title": "Demystifying TypeScript for Beginners",
-    "description": "TypeScript adds static typing to JavaScript, making it easier to catch errors during development. In this beginner-friendly guide, we explore the basics of TypeScript, including interfaces, types, and how to set up a project. You'll see how TypeScript enhances code quality and readability.\n\nWe also discuss the transition from JavaScript to TypeScript and provide tips to integrate TypeScript into existing projects. With plenty of code examples, this article will help you get started with TypeScript confidently.",
-    "publishDate": "2025-01-22",
-    "author": "Sophia Williams",
-    "image": "https://images.unsplash.com/photo-1607706189992-eae578626c86?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29kaW5nfGVufDB8fDB8fHww",
-    "review": ["dkasjkdjaskdjksajdkjsakdjksajkd", "sljdkasldklaskdlkasld"]
+    "authorName": "Michael Roberts",
+    "description": "Debugging is both an art and a science, and mastering it is a rite of passage for developers. Whether you're a beginner trying to fix your first runtime error or a seasoned coder chasing down a rare edge case, debugging is an inevitable part of the development process. A solid debugging workflow starts with understanding the problem: what is failing, and why? Tools like breakpoints, console logs, and debugging utilities in IDEs are invaluable for identifying the root cause of an issue. Equally important is having a structured mindset: break down the problem into smaller parts and test each component systematically.\n\nPatience and persistence are key qualities when debugging. Instead of rushing to patch an issue, take the time to investigate how different parts of your code interact. Often, a bug is not a single mistake but a combination of factors that compound over time. Collaborating with peers, consulting documentation, or even rubber duck debugging (explaining the problem out loud to an inanimate object) can provide fresh perspectives. As you grow in your coding journey, you’ll develop a sixth sense for where bugs might hide, making you not just a better debugger but also a more cautious and proactive coder.",
+    "publishDate": "2025-02-09",
+    "image": "/images/blogpost2.webp"
   }
 ]
