@@ -7,7 +7,7 @@ export default function Dashboard() {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await fetch("/data/blogs.json");
+        const response = await fetch("http://localhost:3001/api/blogs");
         const result = await response.json();
         setData(result);
       } catch (error) {
