@@ -93,24 +93,30 @@ export default function CreateBlog() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     if (Object.values(formData).some((value) => !value)) {
       alert("Please fill out all fields before submitting.");
       return;
     }
-
+    
     try {
-      const response = await fetch("http://localhost:3001/api/blogs", {
+      const response = await fetch("http://localhost:3001/api/blogs");
+      const blogs = await response.json();
+  
+      const nextId = blogs.length > 0 ? Math.max(...blogs.map((b) => b.id)) + 1 : 1;
+  
+      const newBlog = { id: nextId, ...formData };
+  
+      const postResponse = await fetch("http://localhost:3001/api/blogs", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(newBlog),
       });
-
-      if (response.ok) {
+  
+      if (postResponse.ok) {
         alert("Blog submitted successfully!");
         setFormData(initialFormState);
       } else {
-        const { error } = await response.json();
+        const { error } = await postResponse.json();
         alert(`Error: ${error || "Failed to submit blog."}`);
       }
     } catch (error) {
@@ -118,6 +124,7 @@ export default function CreateBlog() {
       alert("An unexpected error occurred. Please try again.");
     }
   };
+  
   return (
     <div className="container">
       <div style={styles.main}>
