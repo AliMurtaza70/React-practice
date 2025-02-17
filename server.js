@@ -41,6 +41,27 @@ app.get('/api/blogs', (req, res) => {
   });
 });
 
+app.get("/api/blogs/:blogId", (req, res) => {
+  const blogId = parseInt(req.params.blogId);
+
+  fs.readFile('public/data/blogs.json', (err, data) => {
+    if (err) {
+      console.error(err);
+      return res.status(500).send({ message: "Error reading file" });
+    }
+
+    const blogs = JSON.parse(data);
+    const blog = blogs.find((b) => b.id === blogId);
+
+    if (!blog) {
+      return res.status(404).send({ message: "Blog not found" });
+    }
+
+    res.send(blog);
+  });
+});
+
+
 app.listen(3001, () => {
   console.log('Server listening on port 3001');
 });

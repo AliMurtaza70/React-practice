@@ -48,5 +48,6 @@ code {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  gap: 35px;
 }
 
